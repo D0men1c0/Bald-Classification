@@ -41,7 +41,7 @@ The dataset was split into:
 ## Modelling
 
 Several CNN architectures were experimented with, ranging from simple to complex. The performance of each model varied based on the complexity of the architecture and the use of pretrained models. For example:
-- The simplest CNN architecture achieved 0.9 in all metrics on the test set, while obtaining 0.4 on the training set.
+- The simplest CNN architecture achieved 0.9 in all metrics on the training set, while obtaining 0.4 on the test set.
 - The VGG16 model achieved a precision of 0.84 on the training, validation, and test sets. However, other metrics were lower, around 0.2.
 
 ## Evaluation
